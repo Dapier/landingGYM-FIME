@@ -1,0 +1,196 @@
+      * {
+        font-family: "Montserrat", sans-serif;
+        box-sizing: border-box;
+        margin: 0;
+      }
+      .container {
+        height: 140px;
+      }
+      .container a {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      ul {
+        display: flex;
+        list-style: none;
+      }
+      #logo img {
+        width: 201px;
+        height: 100px;
+        margin-top: -50px;
+        margin-left: 10rem;
+      }
+      ul li {
+        margin-top: 40px;
+        margin-left: 10px;
+        padding: 1rem;
+        font-size: 1rem;
+      }
+      ul li:hover {
+        transition-delay: 0.1s;
+        color: #34a32a;
+        cursor: pointer;
+      }
+      .banner {
+        background-image: url(../img/gimnasio.jpg);
+        background-size: cover;
+        box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
+        width: 100%;
+        height: 10rem;
+      }
+      .title {
+        text-align: center;
+        padding: 2rem;
+        color: #fff;
+        font-weight: bold;
+        text-shadow: 3px 2px 0 #000;
+      }
+      h1 .title {
+        background-color: #34a32a;
+        width: 5rem;
+        height: 1rem;
+      }
+      .process {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .container_in {
+        grid-column: 1/2;
+        grid-row: 1;
+        height: 40rem;
+      }
+      .sub_in {
+        text-align: center;
+        font-size: 2rem;
+        margin: 3rem;
+      }
+      .in {
+        margin: 1rem;
+        padding: 1rem;
+        height: 38rem;
+        font-size: 1.2rem;
+        background-color: rgba(31, 167, 76, 0.9);
+        border-radius: 20px;
+        color: #fff;
+        font-family: "Montserrat", sans-serif;
+      }
+      ol .pasos {
+        list-style-type: circle;
+      }
+      ol li {
+        padding: 2rem;
+      }
+
+      .in_image {
+        grid-column: 1/2;
+        grid-row: 1;
+      }
+      .in_image img {
+        width: 60rem;
+        height: 40rem;
+        margin: 2rem;
+      }
+
+      .container-form {
+        background-image: url(../img/pesas.jpg);
+        background-size: cover;
+        margin-top: 3rem;
+        padding: 4rem;
+      }
+      form {
+        text-align: center;
+        background-color: rgba(31, 167, 76, 0.9);
+        max-width: 50rem;
+        max-height: 40rem;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
+        padding: 1rem;
+        z-index: 1;
+        color: white;
+      }
+
+      input {
+        width: 15rem;
+        padding: 0.5rem;
+        margin: 1rem;
+        border-radius: 15px;
+        border: inherit;
+        background-color: #eeeeee;
+      }
+      select{
+        width: 15rem;
+        padding: 0.5rem;
+        margin: 1rem;
+        border-radius: 15px;
+        border: inherit;
+        background-color: #eeeeee;
+        outline: none;
+      }
+      .register {
+        font-size: 2rem;
+        padding: 1rem;
+      }
+
+      #email,
+      #name {
+        width: 40rem;
+        padding: 0.5rem;
+        margin: 1rem;
+      }
+
+      input:focus {
+        border: 1px solid #34a32a;
+        outline: none;
+        box-shadow: 0 0 10px #719ece;
+      }
+      .btn {
+        height: 2rem;
+        width: 10rem;
+        background-color: #1285f1;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        border-radius: 20px;
+        margin-top: 1rem;
+      }
+      .btn:hover {
+        background-color: #5c9bec;
+        box-shadow: 0 0 10px #2586e0;
+      }
+      #carreras {
+        width: 6rem;
+      }
+
+      .footer_container {
+        margin-left: 0;
+        background-color: #313b48;
+        color: #fff;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .redes {
+        grid-column: 1/2;
+        grid-row: 1;
+        padding: 2rem;
+      }
+      .logos {
+        grid-column: 2/2;
+        grid-row: 1;
+      }
+      .logos img {
+        max-width: 374px;
+        max-height: 234px;
+        margin: 2rem;
+      }
+      ul .redes_items {
+        padding: 1rem;
+        margin: 0;
+        color: #fff;
+      }
+      .redes_items {
+        background-color: inherit;
+      }
+
+      

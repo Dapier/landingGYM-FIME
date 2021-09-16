@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="img/favicon.png" type="image/png" />
+    <style>
+      html {
+        background: url(../img/fime.jpg) no-repeat;
+        min-height: 100%;
+        background-size: cover;
+      }
+      .containerLog {
+        margin-top: 7rem;
+        display: flex;
+        justify-content: center;
+        background-color: rgba(231, 231, 231, 1);
+        width: 40%;
+        height: 20%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
+      }
+      input[type="text"] {
+        border: 0.1px solid rgb(53, 50, 50);
+        border-radius: 4px;
+      }
+      .data {
+        padding: 2rem;
+        color: #000;
+      }
+      .btn_login {
+        text-align: center;
+        margin-left: 5rem;
+        outline: none;
+      }
+      .btn_login a {
+        text-decoration: none;
+        color: #fff;
+      }
+      .loginTitle {
+        padding: 1rem;
+        text-align: center;
+      }
+    </style>
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="containerLog">
+      <div class="data">
+        <span><img src="img/fime-logo.png" alt="logo-fime" /></span>
+        <h2 class="loginTitle">Ingresar</h2>
+        <br />
+        <span>Matricula</span><input type="text" />
+        <br />
+        <span>Contraseña</span><input type="password" />
+        <br />
+        <button class="btn btn_login"><a href="index.html">Ingresar</a></button>
+      </div>
+    </div>
+  </body>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="js/script.js"></script>
+  <script>
+    swal(
+      "Bienvenido , a la mejora de Josue David Guzman Alvarado",
+      "Se esta actuaizando el metodo de reservacion en el gimnasio de la FIME"
+    );
+  </script>
+</html>
